@@ -11,4 +11,7 @@ public class Calculator {
     public int div(int a, int b) {
         return a / b;
     }
+    public int mod(int a, int b) {
+        return a % b;
+    }
 }

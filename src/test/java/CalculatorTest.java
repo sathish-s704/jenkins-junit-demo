@@ -26,6 +26,6 @@ public class CalculatorTest {
 
     @Test
     public void testMod() {
-        assertEquals(0, calc.div(3, 2)); // integer division
+        assertEquals(1, calc.div(3, 2)); // integer division
     }
 }

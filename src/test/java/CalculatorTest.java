@@ -23,4 +23,9 @@ public class CalculatorTest {
     public void testDiv() {
         assertEquals(0, calc.div(2, 3)); // integer division
     }
+
+    @Test
+    public void testMod() {
+        assertEquals(0, calc.div(2, 3)); // integer division
+    }
 }

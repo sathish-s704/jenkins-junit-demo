@@ -21,11 +21,11 @@ public class CalculatorTest {
 
     @Test
     public void testDiv() {
-        assertEquals(1, calc.div(3, 3)); // integer division
+        assertEquals(1, calc.div(3, 3)); 
     }
 
     @Test
     public void testMod() {
-        assertEquals(1, calc.div(3, 2)); // integer division
+        assertEquals(1, calc.div(3, 2)); 
     }
 }

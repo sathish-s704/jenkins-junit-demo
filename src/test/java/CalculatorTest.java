@@ -6,7 +6,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        assertEquals(5, calc.add(2, 3));
+        assertEquals(6, calc.add(3, 3));
     }
 
     @Test
@@ -16,16 +16,16 @@ public class CalculatorTest {
 
     @Test
     public void testMul() {
-        assertEquals(21, calc.mul(7, 3));
+        assertEquals(6, calc.mul(2, 3));
     }
 
     @Test
     public void testDiv() {
-        assertEquals(1, calc.div(3, 3)); // integer division
+        assertEquals(1, calc.div(3, 3)); 
     }
 
     @Test
     public void testMod() {
-        assertEquals(1, calc.div(3, 2)); // integer division
+        assertEquals(1, calc.div(3, 2)); 
     }
 }

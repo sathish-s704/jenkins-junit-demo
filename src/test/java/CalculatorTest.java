@@ -16,7 +16,7 @@ public class CalculatorTest {
 
     @Test
     public void testMul() {
-        assertEquals(6, calc.mul(2, 3));
+        assertEquals(21, calc.mul(7, 3));
     }
 
     @Test

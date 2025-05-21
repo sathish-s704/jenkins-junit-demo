@@ -21,7 +21,7 @@ public class CalculatorTest {
 
     @Test
     public void testDiv() {
-        assertEquals(1, calc.div(3, 3)); 
+        assertEquals(1, calc.div(4, 3)); 
     }
 
     @Test
